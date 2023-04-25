@@ -3,7 +3,9 @@
   "version": "2.2.0",
   "private": false,
   "scripts": {
-    "dev": "astro check --watch & astro dev",
+    "dev": "astro dev",
+    "check": "astro check --watch",
+    "check-dev": "astro check --watch & astro dev",
     "start": "astro dev",
     "build": "astro build && jampack ./dist",
     "preview": "astro preview",
